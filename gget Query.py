@@ -1,16 +1,10 @@
-# Prepare the environment
-# !pip install gget --quiet
-# !pip install harmonypy --quiet
-# !pip install scanpy --quiet
-
 import gget
 import scanpy as sc
-from scanpy.experimental.pp import recipe_pearson_residuals
 
 # Setup CELLxGENE
 # gget.setup("cellxgene")
 
-# Download mouse brain dataset from CELLxGENE (~3.5 million cells)
+# Download mouse brain dataset from CELLxGENE
 adata = gget.cellxgene(
     census_version="2025-01-30",
     species="mus_musculus",
@@ -28,7 +22,6 @@ sc.pp.filter_genes(adata, min_counts=3)
 sc.pp.filter_cells(adata, min_genes=500)
 sc.pp.normalize_total(adata, target_sum=1e6)
 sc.pp.log1p(adata)
-# sc.pp.scale(adata) # Uses too much RAM -> swap to a zero center pca
 
 # Save the raw (normalized + log-transformed, but unscaled) data
 adata.raw = adata.copy()
