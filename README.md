@@ -25,3 +25,9 @@ The gget .h5ad object was loaded with Scanpy (Wolf _et al._, 2018), normalized d
 - McInnes L, Healy J, Melville J. _UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction_. arXiv:1802.03426. 2018.
 - Cokelaer T, Pultz D, Harder L, Serra-Musach J, Vicente R, Godzik A. _Bioservices: a common Python package to access biological Web Services programmatically_. Bioinformatics. 2013;29(24):3241–3242.
 - Kanehisa M, Goto S. _KEGG: Kyoto Encyclopedia of Genes and Genomes_. Nucleic Acids Res. 2000;28(1):27–30.
+
+**Datasets Accessed**
+
+1. Posner, David A., et al. “Humoral Immunity at the Brain Borders in Homeostasis.” Current Opinion in Immunology, vol. 76, Jun. 2022, p. 102188. DOI.org (Crossref), https://doi.org/10.1016/j.coi.2022.102188.
+2. The Tabula Muris Consortium, et al. “A Single-Cell Transcriptomic Atlas Characterizes Ageing Tissues in the Mouse.” Nature, vol. 583, no. 7817, Jul. 2020, pp. 590–95. DOI.org (Crossref), https://doi.org/10.1038/s41586-020-2496-1.
+3. Hochbaum, Daniel R., et al. “Thyroid Hormone Remodels Cortex to Coordinate Body-Wide Metabolism and Exploration.” Cell, vol. 187, no. 20, Oct. 2024, pp. 5679-5697.e23. DOI.org (Crossref), https://doi.org/10.1016/j.cell.2024.07.041.
